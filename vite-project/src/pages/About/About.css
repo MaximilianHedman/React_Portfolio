@@ -1,0 +1,64 @@
+/*_________________________________MAIN__________________________________*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+section {
+    flex: 1 1 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 50rem;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contact-info .bold {
+    font-weight: 700;
+}
+
+.contact-info .red {
+    color: #d64f4f;
+}
+
+/*_________________________________MEDIA QUERY'S__________________________*/
+@media (min-width: 540px) {
+    .introduction p {
+        font-size: 38px;
+    }
+
+    main {
+        gap: 3rem;
+        padding: 3rem 0;
+    }
+
+    .contact-info p {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 933px) {
+    main {
+        gap: 5rem;
+        padding: 7rem 0 5rem 0;
+    }
+
+    .contact-info p {
+        font-size: 22px;
+    }
+}

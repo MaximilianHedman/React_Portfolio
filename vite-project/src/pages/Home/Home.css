@@ -1,0 +1,42 @@
+/*_________________________________MAIN__________________________________*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 0 2rem 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+.welcome-container {
+    padding-bottom: 4rem;
+}
+
+.welcome-container h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/*_________________________________MEDIA QUERY'S__________________________*/
+@media (min-width: 540px) {
+    .welcome-container h2 {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 933px) {
+    .welcome-container h2 {
+        font-size: 35px;
+    }
+}
