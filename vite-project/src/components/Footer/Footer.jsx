@@ -9,26 +9,22 @@ const Footer = () => {
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/maximilian-hedman-b10a2915b/" target="_blank">
-                        <FontAwesomeIcon icon='linkedin' />
-                        {/* <i className="fa fa-linkedin w3-large"></i> */}
+                        <FontAwesomeIcon icon={['fab', 'linkedin']} />
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/MaximilianHedman" target="_blank">
-                        <FontAwesomeIcon icon='github' />
-                        {/* <i className="fa fa-github w3-large"></i> */}
+                        <FontAwesomeIcon icon={['fab', 'github']} />
                     </a>
                 </li>
                 <li>
                     <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank">
-                        <FontAwesomeIcon icon='facebook' />
-                        {/* <i className="fa fa-facebook w3-large"></i> */}
+                        <FontAwesomeIcon icon={['fab', 'facebook']} />
                     </a>
                 </li>
                 <li>
                     <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank">
-                        <FontAwesomeIcon icon='envelope' />
-                        {/* <i className="fa fa-envelope w3-large"></i> */}
+                        <FontAwesomeIcon icon={['fas', 'envelope']} />
                     </a>
                 </li>
             </ul>

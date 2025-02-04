@@ -13,8 +13,7 @@ const Navbar = () => {
                 <ul className='nav-links'>
                     <li>
                         <Link to='/' className='navbar-link'>
-                            <FontAwesomeIcon icon='bars' />
-                            {/* <i class="fa fa-bars w3-xlarge"></i> */}
+                            <FontAwesomeIcon icon={['fas', 'bars']} />
                         </Link>
                     </li>
                 </ul>
