@@ -4,7 +4,7 @@ import './ProjectCard.css';
 
 const ProjectCard = () => {
     return (
-        <div className="project-cards-container">
+        <>
             {projectData.map((project) => (
                 <a className="card-link" href={project.link} key={project.id} target="_blank" rel="noopener noreferrer">
                     <div className="card">
@@ -18,7 +18,7 @@ const ProjectCard = () => {
                     </div>
                 </a>
             ))}
-        </div>
+        </>
     );
 };
 
