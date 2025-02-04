@@ -28,7 +28,7 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
-            <p>Maximilian Hedman &copy; 2024</p>
+            <p>Maximilian Hedman &copy; 2025</p>
         </footer>
     )
 }
