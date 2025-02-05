@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 5rem 0 2rem 0;
 }
 
@@ -30,12 +30,20 @@
 
 /*_________________________________MEDIA QUERY'S__________________________*/
 @media (min-width: 540px) {
+    .home-container {
+        gap: 4rem;
+    }
+
     .welcome-container h2 {
         font-size: 29px;
     }
 }
 
 @media (min-width: 933px) {
+    .home-container {
+        gap: 5rem;
+    }
+
     .welcome-container h2 {
         font-size: 35px;
     }

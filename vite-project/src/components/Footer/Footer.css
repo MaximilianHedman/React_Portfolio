@@ -10,6 +10,13 @@ footer {
     background-color: hsl(0, 0%, 9%);
 }
 
-footer i:hover {
-    color: #d64f4f;
+footer ul li a svg {
+    padding: .4rem;
+}
+
+/*TODO Try and create hover to change icon color instead of background color */
+footer ul li a svg:hover {
+    border: 0;
+    border-radius: 100%;
+    background-color: #d64f4f;
 }

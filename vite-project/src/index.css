@@ -49,6 +49,9 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #d64f4f;
+}
 /*_________________________________THEME TOGGLE_________________________________*/
 /* .theme-toggle {
     padding: 10px 20px;
