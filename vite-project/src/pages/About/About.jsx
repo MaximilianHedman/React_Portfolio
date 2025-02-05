@@ -6,9 +6,9 @@ import './About.css';
 
 const About = () => {
     return (
-        <main>
+        <main className='about-container'>
             <img id="profile-img" src={profile} alt="profile" />
-            <section>
+            <section className='introduction-container'>
                 <div className="introduction">
                     <p>My name is Maximilian and I'm an UX/UI designer with a passion for Graphics Design and App Development, based in Stockholm.</p>
                 </div>

@@ -1,5 +1,5 @@
 /*_________________________________MAIN__________________________________*/
-main {
+.about-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,7 +8,7 @@ main {
     gap: 1rem;
 }
 
-section {
+.introduction-container {
     flex: 1 1 50px;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +24,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     gap: 1rem;
     width: 100%;
 }
@@ -42,7 +43,7 @@ section {
         font-size: 38px;
     }
 
-    main {
+    .about-container {
         gap: 3rem;
         padding: 3rem 0;
     }
@@ -53,7 +54,7 @@ section {
 }
 
 @media (min-width: 933px) {
-    main {
+    .about-container {
         gap: 5rem;
         padding: 7rem 0 5rem 0;
     }

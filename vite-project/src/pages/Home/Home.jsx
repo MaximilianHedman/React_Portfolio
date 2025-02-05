@@ -5,8 +5,8 @@ import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn';
 
 const Home = () => {
     return (
-        <main>
-            <section>
+        <main className='home-container'>
+            <section className='card-container'>
                 <ProjectCard />
             </section>
             <BackToTopBtn />

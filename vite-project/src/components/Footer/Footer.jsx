@@ -8,22 +8,22 @@ const Footer = () => {
         <footer>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/maximilian-hedman-b10a2915b/" target="_blank">
+                    <a href="https://www.linkedin.com/in/maximilian-hedman-b10a2915b/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'linkedin']} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/MaximilianHedman" target="_blank">
+                    <a href="https://github.com/MaximilianHedman" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'github']} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank">
+                    <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'facebook']} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank">
+                    <a href="https://sv-se.facebook.com/maximilian.hedman" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fas', 'envelope']} />
                     </a>
                 </li>
